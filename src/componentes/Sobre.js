@@ -1,5 +1,5 @@
 import React from 'react'
-import flores from "./Flor.png"
+import flores from "./img/Flor.png"
 
 const Sobre = () => {
   return (

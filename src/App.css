@@ -9,10 +9,11 @@ body{
 .banner{
   width: 100%;
   height: 100vh;
-  background: url("../img/banner-1.jpg");
+  background: url("./componentes/img/banner-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 .banner_content{
   display: flex;
@@ -98,6 +99,12 @@ body{
 .col-6{
   width: 50%;
 }
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33333333;
+}
 .sobre h3{
   color: rgba(37, 37, 37, 0.7);
   font-size: 30px;
@@ -120,10 +127,58 @@ body{
   margin-top: 40px;
 }
 .sobre-img{
-  height: 500px;
+  height: 430px;
   width: 700px;
   overflow: hidden;
 }
 .sobre-img img{
   width: 100%;
+}
+.dados{
+  width: 100%;
+  padding: 80px 0;
+  background: url("./componentes/img/banner-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #164c18;
+  background-attachment: fixed;
+}
+.dado{
+  text-align: center;
+}
+.dado h1{
+  font-style: 45px;
+}
+.dado p{
+  font-style: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.prices{
+  width: 100%;
+  padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price-img{
+  width: 100%;
+}
+.price-img img{
+  width: 250px;
+}
+.price-head{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.price-texto{
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+.price-rs{
+  font-size: 25px;
+  margin-top: 15px;
 }
