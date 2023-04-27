@@ -88,3 +88,34 @@ body{
 .sobre{
   padding: 80px 0;
 }
+.p-25{
+  padding: 45px;
+}
+.row{
+  width: 100%;
+  display: flex;
+}
+.col-6{
+  width: 50%;
+}
+.sobre h3{
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.sobre h1{
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.sobre p{
+  font-size: 18px;
+  color: #164c18;
+  font-weight: 300;
+}
+.sobre-btn{
+  margin-top: 40px;
+}
