@@ -12,6 +12,7 @@ body{
   background: url("../img/banner-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .banner_content{
   display: flex;
@@ -34,11 +35,53 @@ body{
   font-size: 80px;
   line-height: 80px;
   font-weight: 900;
-  color: #93A85E;
+  color: #3e8c11b5;
   margin-top: 20px;
 }
 .banner-texto p{
   font-size: 25px;
   font-weight: 400;
   margin-top: 20px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar-texto{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navbar-ul{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  text-align: left;
+}
+.navbar-ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight:500;
+  text-transform: uppercase;
+}
+.banner-btn{
+  margin-top: 45px;
+}
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-style: 30px;
+  padding: 20px 40px;
+}
+.btn-smart{
+  background: rgba(62, 140, 17, 0.968);
 }
