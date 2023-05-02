@@ -183,3 +183,16 @@ body{
   font-size: 25px;
   margin-top: 15px;
 }
+.main-footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.container-footer hr{
+  margin-bottom: 12px;
+}
+.col-sm{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
