@@ -243,3 +243,58 @@ body{
   font-weight: 500;
   margin-bottom: 10px;
 }
+.contato-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-left: 30px;
+  align-items: center;
+}
+.contato-row input:focus{
+  color: black;
+}
+.contato-row form{
+  flex: 1 1 40rem;
+  height: 600px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  border: .1rem solid rgba(0, 0, 0, .1);
+  background: #fff;
+  border-radius: .5rem;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+.contato-row .image{
+  flex:1 1 40rem;
+}
+.img-cont{
+  width: 60%;
+  height: 37rem;
+  border-radius: .5rem;
+  margin-left: 40px;
+  margin-top: -16px;
+}
+.contato-row form .box{
+  padding: 0.1rem;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, .1);
+  text-transform: none;
+  border: .1rem solid rgba(0, 0, 0, .1);
+  border-radius: .5rem;
+  margin: .7rem 0;
+}
+.contato-row form .box:focus{
+  border-color: rgba(41, 91, 12, 0.968);
+}
+.contato-row form textarea{
+  height: 15rem;
+  resize: none;
+  margin-bottom: 10px;
+}
+.btn-contato{
+  background:rgba(62, 140, 17, 0.968);
+}
+.btn-contato:hover{
+  background: rgba(41, 91, 12, 0.968)
+}

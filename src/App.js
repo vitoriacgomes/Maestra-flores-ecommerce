@@ -5,6 +5,7 @@ import Sobre from "./componentes/Sobre";
 import Dados from "./componentes/Dados";
 import Prices from "./componentes/Prices";
 import Footer from "./componentes/Footer";
+import Contato from './componentes/Contato';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Sobre id=""/>
       <Dados id=""/>
       <Prices id="produtos"/>
+      <Contato/>
       <Footer/>
     </div>
   );
