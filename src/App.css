@@ -216,6 +216,7 @@ body{
   background: rgba(62, 140, 17, 0.824);
   color: #fff;
   align-items: center;
+  border-radius: .5rem;
 }
 .icons:hover{
   background:rgba(41, 91, 12, 0.968);
