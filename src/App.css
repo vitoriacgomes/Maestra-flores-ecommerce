@@ -298,3 +298,12 @@ body{
 .btn-contato:hover{
   background: rgba(41, 91, 12, 0.968)
 }
+.contato-text{
+  font-size: 30px;
+  line-height: 80px;
+  font-weight: 800;
+  color: #3e8c11b5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 35%;
+}
