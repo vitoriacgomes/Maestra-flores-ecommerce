@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react';    
+import { AiFillHeart } from 'react-icons/ai';   
 import floranjo from "./img/flor-anjo-branco.jpg";
 import tuliparosa from "./img/tulipa-rosa.jpg";
 import rosavermelha from "./img/rosa-vermelha.jpg";
@@ -13,7 +14,6 @@ const Prices = () => {
     <div className='prices' id='produtos'>
       <div className='container'>
         <div className='row'>
-
             <div className='col-3'>
                 <div className='price'>
                     <div className='price-img'>
@@ -22,7 +22,11 @@ const Prices = () => {
                     <h1 className='price-head'>Flor Anjo Branco</h1>
                     <p className='price-texto'>Otima para climas frios. 
                         Sempre florece no outono e gosta de terra umida</p>
-                    <p className='price-rs'>30,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 30,00</p>
                 </div>
             </div>
 
@@ -34,7 +38,11 @@ const Prices = () => {
                     <h1 className='price-head'>Tulipa Rosa</h1>
                     <p className='price-texto'>Otima para climas frios. 
                         Sempre florece no outono e gosta de terra umida</p>
-                    <p className='price-rs'>50,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 50,00</p>
                 </div>
             </div>
 
@@ -46,7 +54,11 @@ const Prices = () => {
                     <h1 className='price-head'>Rosa Vermelha</h1>
                     <p className='price-texto'>Otima para todos os climas. 
                       Nao gosta de terra muita agua.</p>
-                    <p className='price-rs'>40,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 40,00</p>
                 </div>
             </div>
 
@@ -55,10 +67,14 @@ const Prices = () => {
                     <div className='price-img'>
                         <img src={novehoras}/>
                     </div>
-                    <h1 className='price-head'>Nove Horas Laranja</h1>
+                    <h1 className='price-head'>Nove Horas </h1>
                     <p className='price-texto'>Otima para climas quentes. 
-                        Sempre florece no verão e gosta de terra umida</p>
-                    <p className='price-rs'>20,00</p>
+                        Gosta de terra umida</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 20,00</p>
                 </div>
             </div>
 
@@ -69,8 +85,12 @@ const Prices = () => {
                     </div>
                     <h1 className='price-head'>Leao Rosa</h1>
                     <p className='price-texto'>Otima para climas quentes. 
-                        Sempre florece no verão e gosta de terra umida</p>
-                    <p className='price-rs'>35,00</p>
+                        Gosta de terra umida</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 35,00</p>
                 </div>
             </div>            
 
@@ -82,7 +102,11 @@ const Prices = () => {
                     <h1 className='price-head'>Nuvem Branca</h1>
                     <p className='price-texto'>Otima para todos os climas. 
                     Facil de cuidar.</p>
-                    <p className='price-rs'>15,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 15,00</p>
                 </div>
             </div> 
 
@@ -94,7 +118,11 @@ const Prices = () => {
                     <h1 className='price-head'>Nuvem Roxa</h1>
                     <p className='price-texto'>Otima para todos os climas. 
                     Não precisa de muitos cuidados. </p>
-                    <p className='price-rs'>15,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 15,00</p>
                 </div>
             </div> 
 
@@ -106,7 +134,11 @@ const Prices = () => {
                     <h1 className='price-head'>Orquidea Roxa</h1>
                     <p className='price-texto'>Otima para climas frios. 
                         Gosta de terra umida.</p>
-                    <p className='price-rs'>54,00</p>
+                    <div className='icons'>
+                        <a className='heart'><AiFillHeart className='heart-icon' /></a>
+                        <a className='add-car'> adicione ao carrinho</a>
+                    </div>
+                    <p className='price-rs'> R$ 54,00</p>
                 </div>
             </div> 
 
