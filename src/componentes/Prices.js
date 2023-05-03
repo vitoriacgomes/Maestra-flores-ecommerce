@@ -10,7 +10,7 @@ import orquidiaroxa from "./img/orquidia-roxa.jpg";
 
 const Prices = () => {
   return (
-    <div className='prices'>
+    <div className='prices' id='produtos'>
       <div className='container'>
         <div className='row'>
 

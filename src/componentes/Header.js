@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='banner'>
         <NavBar />
-        <div className='banner_content'>
+        <div className='banner_content' id='home'>
             <div className='container'>
                 <div className='banner-texto'>
                 <h3>Flores Devlivery</h3>
