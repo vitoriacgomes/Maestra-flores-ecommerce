@@ -309,18 +309,20 @@ body{
 }
 
 @media (max-width: 700px) {
+  /*Geral*/
   .container {
     width: 100%;
     padding: 0 30px;
   }
+   /*HEADER*/
   .banner{
     background: url("./componentes/img/banner-3.png");
   }
   .banner__texto {
-    width: 60%;
+    width: 200px;
   }
   .banner__texto h3 {
-    font-size: 25px !important;
+    font-size: 25px;
   }
   .banner__texto h1 {
     font-size: 40px;
@@ -333,6 +335,7 @@ body{
     font-weight: 400;
     margin-top: 20px;
   }
+   /*NAVBAR*/
   .navbar__ul {
     width: 100%;
     justify-content: center;
@@ -344,13 +347,16 @@ body{
     font-weight: 300;
     text-transform: uppercase;
   }
+   /*ABOUT*/
+  .sobre-img{
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+  }
   .col-3,
   .col-4,
   .col-6 {
     width: 100%;
-  }
-  .client {
-    margin: 20px 0;
   }
   .about h1 {
     font-size: 25px;
@@ -358,7 +364,13 @@ body{
   .shop h1 {
     font-size: 25px;
   }
-  .menu h1 {
-    font-size: 25px;
+   /*PRICES*/
+  .col-3{
+    content: "";
+    clear: both;
+    width: 23%;
+    display: block;
+    float: none;
   }
+
 }
