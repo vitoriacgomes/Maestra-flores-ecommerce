@@ -1,7 +1,7 @@
 # E-commerce Flores 💮
 
 ### *Visão geral do projeto: 
-Neste repositorio está o codigo de um projeto base para realização de um e-commerce focado em flores. Como ilustrado abaixo:
+Neste repositorio está o codigo de  um projeto base para realização de um e-commerce focado em flores. Como ilustrado abaixo:
 
 ![project presentation gif](https://github.com/vitoriacgomes/E-commerce-flores/blob/master/assets/project_presentation.gif?raw=true)
 
